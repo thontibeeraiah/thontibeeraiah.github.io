@@ -1,0 +1,12 @@
+title: Thonti Beeraiah
+url: https://thontibeeraiah.github.io
+baseurl: ""
+markdown: kramdown
+timezone: Asia/Kolkata
+permalink: /blog/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: essay
